@@ -2,27 +2,27 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package exercicio4.pkg2102;
+package exemplo0703;
 
 /**
  *
  * @author ruben
  */
-public class Exercicio42102 {
+public class Exemplo0703 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int i;
-        int n = 5;
+        String arg1, arg2;
+        arg1 = args[0];
+        arg2 = args[1];
         
-        double s = 0;
+        //Convertendo de string para inteiro
+        int num = Integer.parseInt(arg1);
+        int num2 = Integer.parseInt(arg2);
         
-        for(i = 1;i <= n;i++){
-            s = s + 1.0/i;
-        }
-        System.out.print("O resultado de s é: " + s);
+        System.out.println("A soma dos argumentos é " + (num + num2));
     }
     
 }
