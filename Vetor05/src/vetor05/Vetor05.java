@@ -20,7 +20,7 @@ public class Vetor05 {
         int v[] = new int[20];
         Arrays.fill(v, 0);
         for(int valor: v){
-            System.out.println(valor + " ");
+            System.out.print(valor + " ");
         }
     }
     
