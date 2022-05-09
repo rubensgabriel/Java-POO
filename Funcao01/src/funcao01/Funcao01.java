@@ -2,21 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package testefuncao02;
+package funcao01;
 
 /**
  *
  * @author ruben
  */
-public class TesteFuncao02 {
+public class Funcao01 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Vai começar a contagem");
-        System.out.println(Operacoes.contador(1,5));
+        Fatorial f = new Fatorial();
+        f.setValor(5);
+        System.out.println(f.getFormula());
+        System.out.println(f.getFatorial());
     }
     
 }
